@@ -1,0 +1,123 @@
+@charset "ISO-8859-1";
+
+body.poo, html{
+	overflow:scroll;
+	height: 100%;
+}
+
+div#wrapper{
+	margin-left: 10px;
+}
+
+hr{
+	margin-right:2%;
+}
+
+div.logo_cabecalho{
+	display:flex;
+	align-items:center;
+	padding-top:0.5%;
+}
+
+div.logo_cabecalho h1, h2{
+	margin-left:8px;
+}
+
+img#logo_inicio{
+	max-width: 3.5%;
+	height: auto;
+}
+
+img.logo_disciplina{
+	max-width: 5%;
+	height:auto;
+}
+
+h3#nome_professor{
+	margin-left:5.5%;
+}
+
+fieldset{
+	border: 1.5px solid;
+	width: 98%;
+}
+
+span.titulo_fieldset{
+	padding-left:20px;
+}
+
+footer{
+	background:#f2f2f2;
+	position: fixed;
+	bottom:0;
+	width:98.5%;
+	height: 6%;
+}
+
+footer p{
+	text-align:center;
+	padding-top: 15px;	
+	font-weight:bold;
+}
+
+.table{
+	border-collapse:collapse;
+	border-spacing: 0;
+    width: 60%;
+    border: 1px solid #ddd;
+    margin:auto;
+}
+
+th, td{
+	text-align: center;
+	padding: 16px;
+}
+
+tr:nth-child(even){
+	background-color:#bdbdbd;
+}
+
+button.botao{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;   
+    margin: 2% 20%;
+    font-weight:bold;
+    border-radius:4px;
+}
+
+button.botao_deletar{
+	background-color: #db524b;
+    border: none;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    font-weight:bold;
+    border-radius:4px;    
+}
+
+.botao_deletar a:link{
+	color: #fff;
+}
+
+input.formulario{
+	margin-left:1px;
+	padding:10px;
+	width:250px;
+}
+
+button#inserir_aluno, button#inserir_material{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;   
+    font-weight:bold;
+    border-radius:4px;
+}
+
